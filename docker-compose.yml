@@ -1,0 +1,8 @@
+services:
+  hilvana:
+    build: .
+    image: hilvana:latest
+    container_name: hilvana
+    ports:
+      - "8900:80"
+    restart: unless-stopped

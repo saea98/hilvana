@@ -1,0 +1,56 @@
+HILVANA · SITIO WEB hilvana.com.mx
+===================================
+
+Qué hay en esta carpeta
+-----------------------
+index.html            El sitio completo en un solo archivo (estilos, código, logotipos
+                      y animaciones ya van adentro). Es la página principal.
+og-imagen.png         Imagen que aparece al compartir la liga en WhatsApp, LinkedIn, etc.
+favicon-32.png        Ícono de la pestaña del navegador.
+apple-touch-icon.png  Ícono cuando alguien guarda el sitio en la pantalla de su celular.
+robots.txt            Permite que Google indexe el sitio.
+sitemap.xml           Mapa del sitio para buscadores.
+marca/                Logotipos en SVG, solo de referencia (el sitio no los necesita).
+
+
+Cómo publicarlo
+---------------
+1. Subir TODO el contenido de esta carpeta (menos marca/ y este LEEME, si quieres)
+   a la raíz pública del hosting de hilvana.com.mx (public_html, www, htdocs, etc.).
+   Los archivos deben quedar al mismo nivel que index.html, no dentro de una subcarpeta.
+2. Activar HTTPS (certificado SSL; Let's Encrypt suele ser gratis en el panel del hosting).
+3. Redirigir www.hilvana.com.mx -> hilvana.com.mx (o al revés, pero solo una versión).
+4. Probar:
+   - https://hilvana.com.mx abre el sitio.
+   - https://hilvana.com.mx/og-imagen.png abre la imagen.
+   - Pegar la liga en WhatsApp y ver que salga la imagen de vista previa.
+
+Es un sitio estático: no necesita base de datos, PHP ni Node. Sirve en cualquier
+hosting, o en Netlify / Vercel / Cloudflare Pages arrastrando esta carpeta.
+
+
+Antes de publicar (importante)
+------------------------------
+* CORREO DE CONTACTO: el sitio usa contacto@hilvana.com.mx. Ese buzón debe existir
+  y alguien debe revisarlo. Si se usa otro correo, buscar "contacto@hilvana.com.mx"
+  dentro de index.html y reemplazarlo (aparece pocas veces; reemplazar todas).
+
+* FORMULARIO: no envía a un servidor. Al darle "Enviar mi idea" abre el programa
+  de correo del visitante con el mensaje ya armado hacia contacto@hilvana.com.mx.
+  Si después se quiere que llegue directo a la bandeja (sin abrir el correo del
+  visitante), se puede conectar a un servicio de formularios (Formspree, Netlify
+  Forms, etc.); pedirle a Claude que lo ajuste.
+
+* CASOS DE ÉXITO: el de la clínica es real (autorizado). Los otros dos
+  (distribuidora de alimentos y organismo público) son EJEMPLOS ILUSTRATIVOS y así
+  están etiquetados en la página. Decidir con Arturo si se publican así o se quitan.
+
+* Tipografías: se cargan de Google Fonts (Outfit, Inter, JetBrains Mono). Requiere
+  internet del lado del visitante, como cualquier sitio.
+
+
+Cambios futuros
+---------------
+El index.html es un archivo compilado; no está pensado para editarse a mano más allá
+del correo. Para cambios de contenido o diseño, pedirlos a Arturo / Claude y se
+entrega un index.html nuevo para reemplazar el actual.

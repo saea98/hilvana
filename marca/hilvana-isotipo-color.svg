@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" width="240" height="180" role="img" aria-label="Isotipo Hilvana"><title>Isotipo Hilvana</title><defs><clipPath id="icolor"><rect x="150" y="0" width="90" height="180"/></clipPath></defs><g transform="translate(0.00,0.00) scale(1.0000)"><path d="M16,40 C32.17,40 44.87,48.51 56,61.69" fill="none" stroke="#24477A" stroke-width="14" stroke-dasharray="9 7"/>
+<path d="M56,61.69 C62.76,69.69 68.95,79.42 75,90 C91,118 104,140 120,140 S198,40 224,40" fill="none" stroke="#24477A" stroke-width="14"/>
+<path d="M16,140 C32.17,140 44.87,131.49 56,118.31" fill="none" stroke="#B8405F" stroke-width="14" stroke-dasharray="9 7"/>
+<path d="M56,118.31 C62.76,110.31 68.95,100.58 75,90 C91,62 104,40 120,40 S198,140 224,140" fill="none" stroke="#B8405F" stroke-width="14"/>
+<circle cx="224" cy="40" r="7" fill="#24477A"/><circle cx="224" cy="140" r="7" fill="#B8405F"/>
+<g clip-path="url(#icolor)"><path d="M75,90 C91,118 104,140 120,140 S198,40 224,40" fill="none" stroke="#24477A" stroke-width="14" stroke-linecap="round"/></g>
+<circle cx="120" cy="90" r="10" fill="#1F2226"/></g></svg>
